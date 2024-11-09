@@ -119,3 +119,9 @@ However, as you can see, Azure is waiting for my approval
 As you can see, a 403 error occurred. It occurs because Azure assigns the Contributor role to terraform by default, which does not have the right to issue permissions.
 
 ![Pull request](images/apply-error.png)
+
+After extending the privileges for the automatically created application and re-running the task, we see that the error is fixed
+
+![App privileges](images/apply-privileges.png)
+
+![App privileges](images/apply-success.png)
